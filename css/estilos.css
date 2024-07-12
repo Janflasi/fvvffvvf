@@ -1,0 +1,124 @@
+  
+
+.container {
+    margin-top: -2px; /* Ajusta el valor según sea necesario */
+}
+.subcontainer{
+    margin-top: -2px;
+}
+
+body {
+    background-color: #f2f2f2; /* Color gris claro en formato hexadecimal */
+}
+
+
+
+.row{
+    max-width: 600px;
+}
+ .header-principal{
+    background-color: #FF0000;
+ 
+ 
+ }
+ .encaba{
+    background-color: #FF0000;
+ 
+ 
+ }
+ .left-box {
+    background: #ff0000;
+}
+
+/* Estilo general del contenedor */
+.box-area {
+    max-width: 500px; /* Haciendo el contenedor más angosto */
+    border: 1px solid #ddd;
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 2rem; /* Espaciado interno */
+    background-color: #f9f9f9; /* Fondo claro */
+}
+
+/* Estilo de la cabecera */
+.header-text h2 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.header-text p {
+    font-family: 'Arial', sans-serif;
+    color: #555;
+    font-size: 1rem;
+}
+
+/* Estilo de los campos de entrada */
+.form-control {
+    border-radius: 10px; /* Bordes redondeados */
+    border: 1px solid #ccc;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+/* Estilo del botón */
+.btn-danger {
+    background-color: #ff0000;
+    border: none;
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 1rem;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #cc0000; /* Color al pasar el mouse */
+}
+
+/* Estilo del enlace */
+a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.rotated-logo {
+    animation: rotate-side-to-side 5s infinite;
+}
+
+@keyframes rotate-side-to-side {
+    0% {
+        transform: rotate(-5deg);
+    }
+    50% {
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(-5deg);
+    }
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los botones dentro de las cartas */
+#nuestros-programas .carta button {
+    font-weight: bold;
+    background-color: #ffc107;
+    color: #212529;
+    border: 2px solid #ffc107;
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+#nuestros-programas .carta button:hover {
+    background-color: #212529;
+    color: #ffc107;
+    transform: rotate(3deg);
+}
+

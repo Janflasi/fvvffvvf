@@ -1,0 +1,59 @@
+body {
+    background-color: #f2f2f2; /* Color gris claro */
+}
+
+.header-principal {
+    background-color: #FF0000;
+}
+
+.rotated-logo {
+    animation: rotate-side-to-side 5s infinite;
+}
+
+@keyframes rotate-side-to-side {
+    0% {
+        transform: rotate(-5deg);
+    }
+    50% {
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(-5deg);
+    }
+}
+
+/* Estilos para los botones dentro de las cartas */
+.card button {
+    font-weight: bold;
+    background-color: #ffc107;
+    color: #212529;
+    border: 2px solid #ffc107;
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #212529;
+    color: #ffc107;
+    transform: rotate(3deg);
+}
+
+/* Estilos adicionales para las cartas */
+.card {
+    background-size: cover;
+    background-position: center;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+.card-body {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+

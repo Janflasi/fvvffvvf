@@ -1,10 +1,4 @@
-<?php
 
-$documento = isset($_POST['documento']) ? $_POST['documento'] : 'Valor por defecto del documento';
-$nombre = isset($_POST['nombre']) ? $_POST['nombre'] : 'Valor por defecto del nombre';
-$correo = isset($_POST['correo']) ? $_POST['correo'] : 'Valor por defecto del correo';
-$password = isset($_POST['password']) ? $_POST['password'] : 'Valor por defecto del password';
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,7 +6,7 @@ $password = isset($_POST['password']) ? $_POST['password'] : 'Valor por defecto 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/estilo4.css">
     <title>Profile</title>
 </head>
 <body>

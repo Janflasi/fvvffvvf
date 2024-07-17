@@ -1,0 +1,66 @@
+/* Estilos para la barra de navegación */
+.header-principal {
+    background-color: #FF0000; /* Color de fondo para la barra de navegación */
+    
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+
+
+/* Estilos para el contenido de la barra de navegación */
+.navbar-collapse {
+    justify-content: flex-end; /* Alineación de los elementos a la derecha en pantallas grandes */
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px; /* Margen entre los elementos del menú */
+}
+
+/* Estilos para el formulario de búsqueda */
+.form-control {
+    width: 100%; /* Ancho completo en todos los tamaños de pantalla */
+}
+
+/* Estilos para los productos */
+.fruite-item {
+    border: 1px solid #ccc; /* Borde del contenedor de producto */
+}
+
+.product-item .fruite-img img {
+    max-width: 100%; /* Imagen de producto ajustada al 100% del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+.product-item .p-4 {
+    background-color: #f9f9f9; /* Fondo del área de descripción del producto */
+    border-top: 1px solid #ccc; /* Borde superior del área de descripción */
+}
+
+.product-item .add-to-cart {
+    margin-top: 10px; /* Espacio superior para el botón agregar al carrito */
+}
+
+@media (max-width: 991px) {
+    /* Estilos específicos para pantallas medianas */
+    .header-principal .GAVIGOL img {
+        max-width: 120px; /* Reducir el tamaño del logo en pantallas medianas */
+    }
+}
+
+@media (max-width: 767px) {
+    /* Estilos específicos para pantallas pequeñas */
+    .navbar-nav {
+        flex-direction: column; /* Alinear elementos del menú en columna */
+    }
+
+    .navbar-nav .nav-item {
+        margin: 5px 0; /* Reducir el margen vertical entre elementos del menú */
+    }
+
+    .navbar-collapse {
+        justify-content: center; /* Centrar elementos del menú en pantallas pequeñas */
+    }
+}

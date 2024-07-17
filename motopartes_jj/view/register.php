@@ -15,7 +15,7 @@
         </div> 
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="vistaUser.php">Menu  </a>
+    <a class="navbar-brand" href="vistaUser.php">Inicio</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -44,7 +44,7 @@
                     <h2>Hola, Bienvenidos a Repuestos JJJ</h2>
                     <p>Estamos felices de tenerte de vuelta.</p>
                 </div>
-                <form action="C_iniciar_sesion.php" method="POST">
+                <form action="login.php" method="POST">
                     <input type="hidden" name="action" value="login">
                     <div class="input-group mb-3">
                         <input type="number" class="form-control form-control-lg bg-light fs-5" name="documento" placeholder="N° Documento" required>
@@ -68,7 +68,7 @@
                         <div class="col-12 text-center mt-2">
                             <button type="submit" class="btn btn-lg btn-danger w-100 fs-6" style="background-color: #FF0000;">Registrarse</button>
                             <small>¿Olvidaste tu contraseña? <a href="controlador.php?seccion=seccion5" style="color: #FF0000;">Recuperar</a></small>
-                            <button onclick="goBack()" class="btn btn-secondary mt-3">Volver</button>
+                        
                         </div>
                     </div>
                 </form>
@@ -87,11 +87,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-<script>
-    function goBack() {
-        window.history.back();
-    }
-</script>
+
 
 </body>
 </html>

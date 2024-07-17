@@ -1,0 +1,35 @@
+.header-principal {
+    background-color: #FF0000;
+ 
+}
+
+.header-principal .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header-principal .nav-link {
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.header-principal .nav-link:hover {
+    color: #007bff;
+}
+
+.header-principal .form-control {
+    border-radius: 20px;
+}
+
+.header-principal .btn-outline-success {
+    border-radius: 20px;
+}
+
+.header-principal .navbar-nav .nav-link .fas {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.header-principal .navbar-nav .nav-link .fas:hover {
+    color: #007bff;
+}

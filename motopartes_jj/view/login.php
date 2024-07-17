@@ -43,7 +43,7 @@
                         <h2>Hola, Bienvenidos a Repuestos JJJ</h2>
                         <p>Estamos felices de tenerte de vuelta.</p>
                     </div>
-                    <form action="C_iniciar_sesion.php" method="POST">
+                    <form action="viewUser2.php" method="POST">
                         <input type="hidden" name="action" value="login">
                         <div class="input-group mb-3">
                             <input type="email" class="form-control form-control-lg bg-light fs-5" name="correo" placeholder="Correo" required>

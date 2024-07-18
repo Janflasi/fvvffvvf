@@ -38,7 +38,7 @@
             <div class="tab-class text-center">
                 <div class="row g-4">
                     <div class="col-lg-12 text-center">
-                        <h1>Repuestos</h1>
+                        <h1>LLANTAS</h1>
                     </div>
                 </div>
                 <div class="tab-content">

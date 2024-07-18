@@ -1,35 +1,101 @@
+/* Estilos para la barra de navegación */
 .header-principal {
-    background-color: #FF0000;
- 
+    background-color: #FF0000; /* Color de fondo para la barra de navegación */
+    
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-.header-principal .navbar-brand {
-    font-size: 1.5rem;
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.container2 {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.form-title {
+    margin-bottom: 20px;
+    font-size: 24px;
     font-weight: bold;
-}
-
-.header-principal .nav-link {
-    color: #333;
-    font-size: 1.1rem;
-}
-
-.header-principal .nav-link:hover {
-    color: #007bff;
-}
-
-.header-principal .form-control {
-    border-radius: 20px;
-}
-
-.header-principal .btn-outline-success {
-    border-radius: 20px;
-}
-
-.header-principal .navbar-nav .nav-link .fas {
-    font-size: 1.2rem;
     color: #333;
 }
 
-.header-principal .navbar-nav .nav-link .fas:hover {
-    color: #007bff;
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.file-label {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+}
+
+.file-label svg {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.file-info {
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.btn {
+    width: 120px;
+    margin: 5px;
+}
+
+@media (max-width: 768px) {
+    .container2 {
+        padding: 15px;
+    }
+    
+    .form-title {
+        font-size: 20px;
+    }
+    
+    .btn {
+        width: 100%;
+    }
 }

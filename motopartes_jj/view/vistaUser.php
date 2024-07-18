@@ -66,13 +66,13 @@
         <div class="col-md-4 col-sm-6 mb-4">
             <div class="card text-center" style="background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/aceites.png');">
                 <h3 class="text-white">ACEITES</h3>
-                <a href="controlador.php?seccion=seccion2"><button class="btn btn-warning">VER +</button></a>
+                <a href="aceites.php"><button class="btn btn-warning">VER +</button></a>
             </div>
         </div>
         <div class="col-md-4 col-sm-6 mb-4">
             <div class="card text-center" style="background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/llantas.png');">
                 <h3 class="text-white">LLANTAS</h3>
-                <a href="llantas.html"><button class="btn btn-warning">VER +</button></a>
+                <a href="llantas.php"><button class="btn btn-warning">VER +</button></a>
             </div>
         </div>
     </div>

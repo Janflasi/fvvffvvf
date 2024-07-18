@@ -12,7 +12,7 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 
     <!-- Tu CSS personalizado -->
-    <link rel="stylesheet" href="../css/estilo6.css">
+    <link rel="stylesheet" href="../css/estilo7.css">
 </head>
 
 <body>
@@ -77,6 +77,59 @@
         </div>
     </nav>
 </header>
+
+<!-- Main Content -->
+<main class="content">
+    <h1>Bienvenido, Administrador</h1>
+    
+
+
+     <!-- Pega aquí el contenido de tu página -->
+     <section id="nuestros-programas">
+        <div class="container" style="margin-top: auto;">
+            <h2>CATEGORIAS</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="carta" style="background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('imganes/repuestos.jpg');">
+                        <h3>REPUESTOS</h3>
+                        <a href="agregrar_producto.php"><button class="btn btn-warning">Agregar Producto</button></a>
+                        <a href=""><button class="btn btn-warning">VER +</button></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="carta" style="background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('imganes/aceites.png');">
+                        <h3>ACEITES</h3>
+                        <a href="agregar_producto_aceites.html"><button class="btn btn-warning">Agregar Producto</button></a>
+                        <a href="aceites.html"><button class="btn btn-warning">VER +</button></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="carta" style="background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('imganes/llantas.png');">
+                        <h3>LLANTAS</h3>
+                        <a href="agregar_producto_llantas.html"><button class="btn btn-warning">Agregar Producto</button></a>
+                        <a href="llantas.html"><button class="btn btn-warning">VER +</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center text-muted my-3">
+                    &copy; Repuestos JJ
+                </div>
+                <div class="col-12 text-center text-muted">
+                    repuestosjj@gmail.com
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    
 
     <!-- jQuery and Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
